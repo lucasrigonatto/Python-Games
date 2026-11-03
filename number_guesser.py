@@ -1,6 +1,6 @@
 import random
 
-top_of_range = input("Choose the a number to be set as max: ")
+top_of_range = input("Choose a number to be set as max: ")
 
 if top_of_range.isdigit():
     top_of_range = int(top_of_range)
@@ -30,7 +30,7 @@ while True:
     elif user_guess > random_number:
             print("You were above the number!")
     else:
-            print("You were bellow the number!")
+            print("You were below the number!")
 
 print("You got it in", guesses, "guesses.")
          
